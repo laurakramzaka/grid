@@ -1,0 +1,35 @@
+
+
+*{
+  margin: 0;
+}
+
+.grid-container {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: 2fr 1fr 2fr;
+gap: 10px;
+background-color: lightgray;
+
+
+}
+
+.item {
+background-color: lightpink;
+border: 1px solid;
+}
+
+
+.viens {
+background-color: rgb(100, 172, 100);
+border: 1px solid;
+grid-column: span 2;
+grid-row: span 2;
+}
+
+.divi {
+background-color: lightsteelblue;
+border: 1px solid;
+grid-column: span 2;
+grid-row: span 2;
+}
